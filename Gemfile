@@ -36,7 +36,6 @@ gem 'rack-cors'
 gem 'devise'
 gem 'figaro'
 gem 'mongoid', '~> 6.1.0'
-gem 'pundit'
 gem 'rails_admin', '~> 1.3'
 # gem 'rails_admin_rollincode', '~> 1.0'
 # Fork 原项目,进行小范围调整

@@ -3,19 +3,19 @@ zh-CN:
     js:
       true: True
       false: False
-      is_present: Is present
-      is_blank: Is blank
-      date: Date ...
-      between_and_: Between ... and ...
+      is_present: 不为空
+      is_blank: 为空
+      date: 日期
+      between_and_: 介于
       today: 今天
       yesterday: 昨天
       this_week: 本周
       last_week: 上周
-      number: Number ...
+      number: 等于
       contains: 包含
-      is_exactly: Is exactly
-      starts_with: 以 ... 开始
-      ends_with: 以 ... 结束
+      is_exactly: 必须是
+      starts_with: 开始位置
+      ends_with: 结束位置
     loading: 加载中...
     home:
       name: "首页"
@@ -50,6 +50,7 @@ zh-CN:
       object_not_found: "找不到 ID 为'%{id}'的'%{model}'"
     table_headers:
       model_name: "模型名称"
+      last_created: 上次创建
       last_used: "上次使用"
       records: "记录"
       username: "用户"
