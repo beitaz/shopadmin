@@ -1,2 +1,8 @@
 <h1>Home</h1>
 <p>This is home page!</p>
+<% if current_user %>
+<span><%= current_user.email %></span>
+<%= link_to "退出登录", destroy_user_session_path, method: :delete %>
+<% else %>
+<%= link_to "登录", new_user_session_path %>
+<% end %>

@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   protected
 
     def after_sign_in_path_for(resource)
-      current_user.admin? ? root_path : stored_location_for(resource) || super
+      current_user ? root_path : stored_location_for(resource) || super
     end
 
     def after_sign_out_path_for(resource)
