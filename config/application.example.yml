@@ -11,7 +11,7 @@
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
 APP_NAME: '商城'
 ADMIN_NAME: '管理系统'
-RAILS_ADMIN_THEME: 'rollincode'
+RAILS_ADMIN_THEME: 'material'
 
 DATABASE_NAME: shopadmin
 DATABASE_USERNAME: root

@@ -44,12 +44,12 @@ RailsAdmin.config do |config|
   # config.main_app_name = Proc.new { |controller| [ "Cool app", "BackOffice - #{controller.params[:action].try(:titleize)}" ] }
 
   config.model 'User' do
-    navigation_icon 'fa fa-user'
+    navigation_icon 'fa fa-users'
     weight 1
   end
 
   config.model 'Advert' do
-    navigation_icon 'fa fa-send'
+    navigation_icon 'fa fa-tv'
     weight 2
   end
   
