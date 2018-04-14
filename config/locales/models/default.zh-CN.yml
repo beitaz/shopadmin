@@ -1,0 +1,5 @@
+zh-CN:
+  mongoid:
+    models:
+      user: 用户
+      advert: 广告

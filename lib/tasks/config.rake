@@ -1,4 +1,4 @@
-namespace :db do
+namespace :app do
   desc 'Copy figaro configuration file'
   task :config do
     example = File.join('config', 'application.example.yml')

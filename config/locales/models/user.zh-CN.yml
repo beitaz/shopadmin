@@ -1,0 +1,22 @@
+zh-CN:
+  mongoid:
+    attributes:
+      user:
+        account: 账号
+        email: 邮箱
+        mobile: 手机
+        reset_password_token: 重置密码请求令牌
+        reset_password_sent_at: 重置密码请求时间
+        remember_created_at: 记住登录状态时间
+        sign_in_count: 登录次数
+        current_sign_in_at: 本次登录时间
+        last_sign_in_at: 上次登录时间
+        current_sign_in_ip: 本次登录 IP
+        last_sign_in_ip: 上次登录 IP
+        confirmation_token: 账号激活请求令牌
+        confirmed_at: 账号激活时间
+        confirmation_sent_at: 账号激活请求时间
+        unconfirmed_email: 重新激活邮箱地址
+        failed_attempts: 登录尝试失败次数
+        unlock_token: 解锁请求令牌
+        locked_at: 账号锁定时间
