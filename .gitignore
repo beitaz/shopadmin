@@ -26,5 +26,8 @@ yarn.lock
 # Ignore mongodb data files
 /db
 
+# Ignore origin data files
+/data
+
 # Ignore application configuration
 /config/application.yml

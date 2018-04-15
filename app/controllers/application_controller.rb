@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
+  # protect_from_forgery with: :null_session
   before_action :configure_permitted_parameters, if: :devise_controller? # 健壮参数
   # 必须在 authenticate_user! 认证之前存储 "访问历史",因为存储行为会打乱正常的跳转流程，防止认证错误
   before_action :store_user_location!, if: :storable_location?
