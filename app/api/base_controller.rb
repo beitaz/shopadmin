@@ -18,7 +18,7 @@ class BaseController < ApplicationController
   private
 
     def write_params
-      file_path = Rails.root.join('data', action_name + '.json')
+      file_path = Rails.root.join('data', action_name + '.param')
       File.atomic_write(file_path) do |file|
         file.write(params.to_json)
       end
